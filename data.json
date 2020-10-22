@@ -1,19 +1,19 @@
 {
     "packets" : [
         {
-            "logo": "../img/icon-1.png",
+            "logo": "img/icon-1.png",
             "title": "Pakett 1",
             "info": "Integer faucibus blandit eros, id iaculis erat",
             "price": "99"
         },
         {
-            "logo": "../img/icon-2.png",
+            "logo": "img/icon-2.png",
             "title": "Pakett 2",
             "info": "Orci varius natoque penatibus et magnis dis parturient montes",
             "price": "129"
         },
         {
-            "logo": "../img/icon-3.png",
+            "logo": "img/icon-3.png",
             "title": "Pakett 3",
             "info": "Vivamus vestibulum lacus sit amet mi pulvinar ornare",
             "price": "199"

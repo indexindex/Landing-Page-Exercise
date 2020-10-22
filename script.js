@@ -52,7 +52,7 @@ function render(packets, selectedIndex) {
           ${packet.price} €
         </p>
         <button type="button" class="btn" onclick="${isSelected ? 'deselect()' : `select(${i})`}">
-          <img src="../img/cart.png" alt="cart-icon" class="btn__cart">
+          <img src="img/cart.png" alt="cart-icon" class="btn__cart">
           ${isSelected ? 'Ostukorvi lisatud' : 'Lisa ostukorvi'}
         </button>
       </div>`;
