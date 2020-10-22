@@ -1,0 +1,20 @@
+.group { // background
+    background-color: $color-secondary;
+    padding: 7.4rem 25rem 7.3rem 25rem;
+
+    @include respond(tab-port) {
+        padding: 7.4rem 15rem 7.3rem 15rem;
+    }
+
+    @include respond(phone) {
+        padding: 7.4rem 5rem 7.3rem 5rem;
+    }
+
+    &--text {
+        font-size: 1.6rem;
+        font-weight: 400;
+        line-height: 2.4rem;
+        color: $color-black;
+        text-align: left;
+    }
+}

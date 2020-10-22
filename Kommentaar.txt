@@ -1,0 +1,7 @@
+Selle projektiga pidasin silmas aega ja effektiivsust (ehk millega oleks parem alustada)
+
+Arvestasin oma töö kulgu ning sellele vastavalt jaotasin oma projekti nii-võttes kolme etappi.
+
+Esimesel päeval asusin puhtalt tegema lehe kujundust, jälgisin täpselt kavandit ja fondi stiile.
+Teisel päeval tegelesin JavaScripti osaga ja palju rõhku läks loogika leidmisele.
+Kolmandal päeval käisin kõik üksikasjalikult läbi ja täiustasin kavandit telefoni vaatele.

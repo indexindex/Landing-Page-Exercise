@@ -1,0 +1,71 @@
+.hero-image {
+    position: relative;
+    width: 100%;
+    height: 50rem;
+    background: url("/img/header.png"), no-repeat, top;
+    background-size: cover;
+    z-index: 1;
+
+    &__logo { // Logo container
+        position: absolute;
+        top: 33%;
+        left: 50%;
+        transform: translate(-50%, -33%);
+
+        &--icon { // House logo
+            display: block;
+            margin: 0 auto;
+        }
+
+        &--text { // Aenean Vitae
+            margin-top: 1.5rem;
+        }
+    }
+}
+
+.filter { // to apply filter effect on header image
+    position: relative;
+    height: 50rem;
+    background-color: $filter;
+    z-index: 2;
+}
+
+.lead {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    width: 32%;
+
+    @include respond(tab-land) {
+        width: 36%;
+        padding-top: 4rem;
+    }
+
+    @include respond(tab-port) {
+        width: 45%;
+        padding-top: 6rem;
+    }
+
+    @include respond(phone) {
+        width: 70%;
+        padding-top: 16rem;
+    }
+
+    @include respond(custom-360) {
+        width: 90%;
+    }
+
+    &__quotes {
+        padding-left: 1.5rem;
+    }
+
+    &__text {
+        color: $color-white;
+        font-size: 2rem;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 3rem;
+        text-align: center;
+    }
+}
